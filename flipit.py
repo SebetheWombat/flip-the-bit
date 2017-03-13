@@ -19,9 +19,9 @@ f.write("\n\nYour bits have been flipped!\n\n")
 
 #0s to 1s, 1s to 0s
 def flipping_fantastic(digit):
-		b = format(int(digit),'b').replace("0","2").replace("1","0").replace("2","1")
-		b = str(int(b,2))
-		return b
+	b = format(int(digit),'b').replace("0","2").replace("1","0").replace("2","1")
+	b = str(int(b,2))
+	return b
 
 #Extract integers from file and send them to have their bits flipped. Re-write them to file.
 for sentence in file_text:
